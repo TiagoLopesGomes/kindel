@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.pixi/
+.env/
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Logs and temporary files
+wandb/
+lightning_logs/
+yaml/
+*.log
+*.tar.gz
+*.yaml
+*.yml
+
+# Database files
+*.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
