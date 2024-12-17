@@ -102,12 +102,10 @@ From the above image, the results are retrieved and shown in the table below:
 
 
 
-The best overall performer regarding the Spearman correlation is Morgan featurizer with disynthon splits and early stopping, case (B), for the in-lib on-DNA targets. The test MSE for cases B and C seems to be under an overfitting scenario even with early-stopping (regularization did not seem to solve this issue (results tested but not shown). All models have a worse performance for the off-DNA held-out set, as expected. Adding the ChemBERTa featurizer also did not improve the results, indicating that the model not capturing the chemical space of the extended set, expecialy for off-DNA targets.
-
-Overall the XGBoost model with early stopping showed 
+The best overall performer regarding the Spearman correlation is Morgan featurizer with disynthon splits and early stopping, case (B), for the in-lib on-DNA targets. The test MSE for cases B and C seems to be under an overfitting scenario even with early-stopping and regularization did not seem to solve this issue (results tested but not shown). All models have a worse performance for the off-DNA held-out set, as expected. Adding the ChemBERTa featurizer also did not improve the results, indicating that the model not capturing the chemical space of the extended set, expecialy for off-DNA targets.
 
 Adding the Combined featurizer (Morgan plus descriptors) also did not improve MSE or Spearman correlations, regarding case A (tested but not shown).
 
-Possible solutions could include testing the DELcompose model, the best performing model that the authors repoorted, with other featurizers. Also, the authors provide YAML files for hyperparameter tuning, wich could also be tested together with my implemented featurizers. One could also try the best performing model from my accompaning repository (Multitask regressor), found [here](https://github.com/TiagoLopesGomes/chemoinfo).
+Possible solutions could include testing the DELcompose model, the best performing model that the authors reported, with other featurizers. Also, the authors provide YAML files for hyperparameter tuning, wich could also be tested together with my implemented featurizers. One could also try the best performing model from my accompaning repository (Multitask regressor), found [here](https://github.com/TiagoLopesGomes/chemoinfo).
 
 
