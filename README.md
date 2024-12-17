@@ -13,7 +13,7 @@ pip install transformers
 
 ## Key Modifications
 
-1. Enhanced Plotting Functionality [kindel/kindel/utils/plots.py] :
+1. Enhanced plotting Functionality [kindel/kindel/utils/plots.py] :
 - Added regression metrics visualization plots
 - Automatic saving of plots and CSV data
 
@@ -60,7 +60,7 @@ We focused on using the XGBoost model, which was one of the top-performing model
 
 3. Practical Benefits
    - Faster training compared to deep learning models
-   - Lower computational requirements than GNN or Transformer models
+   - Lower computational requirements than other neural networks. 
    - Easier to tune and interpret
    - Good scalability with large molecular datasets
 
